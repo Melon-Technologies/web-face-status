@@ -1,0 +1,21 @@
+{
+  "name": "@melon-technologies/web-face-status",
+  "version": "0.1.0",
+  "description": "A face detection module for the browser that finds the best face and status",
+  "main": "index.js",
+  "license": "CC BY-NC-ND 4.0",
+  "scripts": {
+    "build": "esbuild index.js --bundle --outfile=dist/web_face_status.js"
+  },
+  "dependencies": {
+    "@mediapipe/face_detection": "^0.4.1646425229",
+    "@melon-technologies/get-face-status": "^0.1.0",
+    "@tensorflow-models/face-detection": "^1.0.2",
+    "@tensorflow/tfjs-backend-webgl": "^4.20.0",
+    "@tensorflow/tfjs-converter": "^4.20.0",
+    "@tensorflow/tfjs-core": "^4.20.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.5"
+  }
+}
